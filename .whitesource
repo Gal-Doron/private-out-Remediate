@@ -1,0 +1,14 @@
+{
+  "settingsInheritedFrom": "Gal-Doron/whitesource-config@main",
+  "remediateSettings": {
+    "enableRenovate": true
+  },
+  "hostRules": [
+    {
+      "matchHost" : "py.test",
+      "hostType": "pypi",
+      "userName": "username",
+      "password": "password"
+    }
+  ]
+}
